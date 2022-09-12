@@ -24,6 +24,7 @@ function formSubmit(event) {
     }
     event.target.reset();
     localStorage.removeItem(key);
+    console.log(data);
 }
 
 function innitForm() {
